@@ -1,3 +1,4 @@
+/* CSS Reset */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -46,7 +47,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/* Akhir CSS Reset */
 
 body {
     margin: 0;
@@ -56,58 +57,59 @@ body {
 
 .container  {
     height: 100vh;
-    background-color: black;
+    background-color: #000000;
     max-width: 500px;
-    margin: 0 auto; 
+    margin: auto; 
+    text-align: center;
 }
 
 .profile {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
-.profile > img {
+.profile img {
     width: 200px;
-    margin: 100px auto 0px
+    margin-top: 100px;
 }
 
-.profile > h3 {
+.profile h3 {
     font-size: 30px;
-    color: #fff;
+    color: #ffffff;
     margin-top: 25px;
+    letter-spacing: 1px;
 }
 
-.profile > p {
+.profile p {
     font-size: 18px;
-    color: #fff;
+    color: #ffffff;
     margin: 10px auto;
+    letter-spacing: 1px;
 }
 
 .link {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     padding: 20px;
 }
 
 .link > a {
     text-decoration: none;
-    color: black;
+    color: #000000;
     font-size: 24px;
     text-align: center;
-    border: 3px solid black;
+    border: 3px solid #000000;
     border-radius: 10px;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     margin: 5px 10px;
-    padding: 10px;
+    padding: 10px;  
 }
 
 .link > a:hover {
-    background-color: rgb(0, 0, 0);
-    border: 3px solid rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
+    background-color: #000000;
+    border: 3px solid #ffffff;
+    color: #ffffff;
 }
 
 .footer {
@@ -115,6 +117,7 @@ body {
 }
 
 .footer > p {
-    color: #fff;
+    color: #ffffff;
     font-size: 20px;
+    letter-spacing: 1px;
 }
